@@ -55,3 +55,10 @@ module:{
 ### 数据加载
 - csv/xml: 需要下载相应的 loader ，并在 `webpack.config.js` 中配置 loader 使用
 - json5/yaml/toml: 需要下载相应的文件格式库， 并在 `webpack.config.js`  中配置 指定 `type:'json'` 并设置 `parser:{parse: <type>.parse}`。
+
+
+
+## 管理输出
+
+- html-webpack-plugin 自动生成 `index.html` 文件，并链接输出文件到 `index.html` 中
+- 在 `webpack.config.js` 的 `output` 中设置 `clean:true`,构建时自动清理上一次构建的 `dist` 文件，避免文件过多
