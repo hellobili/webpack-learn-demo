@@ -4,17 +4,24 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build":"webpack",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "json5": "^2.2.0",
+    "toml": "^3.0.0",
     "webpack": "^5.44.0",
-    "webpack-cli": "^4.7.2"
+    "webpack-cli": "^4.7.2",
+    "yaml": "^1.10.2"
   },
   "devDependencies": {
-    "lodash": "^4.17.21"
+    "css-loader": "^5.2.6",
+    "csv-loader": "^3.0.3",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.0.0",
+    "xml-loader": "^1.2.1"
   }
 }
