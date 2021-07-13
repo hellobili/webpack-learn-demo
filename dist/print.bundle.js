@@ -1,1 +1,2 @@
-(()=>{"use strict"})();
+(()=>{"use strict";console.log("I get called from print.js!")})();
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly93ZWJwYWNrLWRlbW8vLi9zcmMvcHJpbnQuanMiXSwibmFtZXMiOlsiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6Im1CQUNFQSxRQUFRQyxJQUFJLGdDIiwiZmlsZSI6InByaW50LmJ1bmRsZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIHByaW50TWUoKSB7XG4gIGNvbnNvbGUubG9nKCdJIGdldCBjYWxsZWQgZnJvbSBwcmludC5qcyEnKTtcbn1cblxucHJpbnRNZSgpIl0sInNvdXJjZVJvb3QiOiIifQ==
